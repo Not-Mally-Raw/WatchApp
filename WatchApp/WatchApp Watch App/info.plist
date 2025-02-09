@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.PICT.WatchApp</string>
+	<key>CFBundleName</key>
+	<string>WatchApp</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>WatchApp uses Bluetooth to discover and communicate with nearby devices.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>WatchApp reads your heart rate and activity data for analytics.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>WatchApp writes health data to improve activity tracking.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>WatchApp uses location data in the background for SOS emergency features.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>WatchApp requires location access for SOS alerts and safety tracking.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>WatchApp sends alerts and notifications for emergency and activity updates.</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>watch-companion</string>
+		<string>bluetooth-le</string>
+	</array>
+	<key>WKWatchOnly</key>
+	<true/>
+</dict>
+</plist>

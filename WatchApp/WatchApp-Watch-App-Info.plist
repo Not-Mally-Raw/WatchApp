@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>GoogleService</key>
+	<dict>
+		<key>API_KEY</key>
+		<string>AIzaSyC_sjPuClA9oA30zrQ6fYZQQAOArjOjgSQ</string>
+		<key>GCM_SENDER_ID</key>
+		<string>952287628874</string>
+		<key>GOOGLE_APP_ID</key>
+		<string>1:952287628874:ios:b0f0276e7b7f70ddbb20b3</string>
+		<key>IS_ADS_ENABLED</key>
+		<true/>
+		<key>IS_ANALYTICS_ENABLED</key>
+		<true/>
+		<key>IS_APPINVITE_ENABLED</key>
+		<true/>
+		<key>IS_GCM_ENABLED</key>
+		<true/>
+		<key>IS_SIGNIN_ENABLED</key>
+		<true/>
+		<key>PROJECT_ID</key>
+		<string>pict-hackapict-hacka</string>
+		<key>STORAGE_BUCKET</key>
+		<string>pict-hacka.firebasestorage.app</string>
+	</dict>
+	<key>NSBluetoothServices</key>
+	<array>
+		<string></string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>bluetooth-peripheral</string>
+		<string>nearby-interaction</string>
+	</array>
+	<key>WKBackgroundModes</key>
+	<array>
+		<string>workout-processing</string>
+	</array>
+</dict>
+</plist>
